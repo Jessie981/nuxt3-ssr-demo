@@ -1,12 +1,9 @@
 <template>
   <div>
     <h1>Welcome to Nuxt 3 with useAsyncData!</h1>
-    <p v-if="loading">Loading...</p>
-    <p v-else-if="error">An error occurred: {{ error }}</p>
-    <div v-else>
-      <h2>Fetched Data:</h2>
-      <pre>{{ posts }}</pre>
-    </div>
+    <h2>Fetched Data:</h2>
+    <pre>{{ posts }}</pre>
+
   </div>
 </template>
 
