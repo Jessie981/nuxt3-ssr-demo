@@ -10,7 +10,7 @@ const fetchUsers = async () => {
     throw new Error(`HTTP error! Status: ${response.status}`)
   }
   if (response.ok) {
-    console.log(123);
+    console.log('response:ok');
   }
 
   return response.json()
